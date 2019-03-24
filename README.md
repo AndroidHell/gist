@@ -1,4 +1,6 @@
-# Linux Gist
+# gist
+
+## Linux Stuff
 
 ```
 sudo apt update && sudo apt upgrade
@@ -8,7 +10,7 @@ sudo apt-get update
 sudo snap install
 
 
-https://www.teamviewer.com/en-us/
+# snaps
 slack --classic
 solitaire
 mc-installer
@@ -17,10 +19,12 @@ audacity
 youtube-dl
 gimp
 sublime-text --classic
+
 sudo apt update && sudo apt install virtualbox
+https://www.teamviewer.com/en-us/
 
 
-
+# Low
 vim
 synergy
 atom --classic
