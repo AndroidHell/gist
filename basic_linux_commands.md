@@ -118,4 +118,4 @@ ctrl+r - reverse lookup of previous commands
 exit - log out of current session
 
 ```
-[Free Electronica Music by Modbom](http://abysmal.bandcamp.com)
+🍔 [Free Electronica Music by Modbom](http://abysmal.bandcamp.com)
