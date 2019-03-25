@@ -58,4 +58,63 @@ free - show memory and swap usage
 whereis app - show possible locations of app
 which app - show which app will be run by default
 
+# searching
+grep pattern files - search for pattern in files
+grep -r pattern dir - search recursively for pattern in dir
+command | grep pattern - search for pattern in the output of a command
+locate file - find all instances of file
+
+# process management
+ps - display currently active processes
+ps aux - ps with a lot of detail
+kill pid - kill process with pid 'pid'
+killall proc - kill all processes named proc
+bg - lists stopped/background jobs, resume stopped job in the bg
+fg - bring most recent job to foreground
+fg n - brings job n to foreground
+
+# file permissions
+chmod octal file - change permission of file
+4 - read (r)
+2 - write (w)
+1 - execute (x)
+
+order: owner/group/world
+
+eg:
+chmod 777 - rwx for everyone
+chmod 755 - rw for owner, rx for group/world
+
+# compression 
+tar cf file.tar files - tar files into file.tar
+tar xf file.tar - untar into current directory
+tar tf file.tar - show contents of archive
+
+tar flats:
+c - create archive
+t - table of contents
+x - extract
+f - specifies filename
+z - use zip/gzip
+j - bzip2 compression
+k - do not overwrite
+T - files from file
+w - ask for confirmation
+v - verbose
+
+gzip file - compress file and rename to file.gz
+gzip -d file.gz - decompress file.gz
+
+# shortcuts
+ctrl+c - halts current command
+ctrl+z - stops current command
+fg - resume stopped command in foreground
+bg - resume stopped command in background
+ctrl+d - log out of current session
+ctrl+w - erases one word in current line
+ctrl+u - erases whole line
+ctrl+r - reverse lookup of previous commands
+!! - repeat last command
+exit - log out of current session
+
 ```
